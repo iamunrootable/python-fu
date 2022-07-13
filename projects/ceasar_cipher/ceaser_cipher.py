@@ -30,3 +30,6 @@ while continue_program:
   else:
     print("Goodbye")
     continue_program = False
+
+should_continue = input("Are there any other bidders? Type 'yes' or 'no'.\n").lower()
+
